@@ -1,0 +1,705 @@
+
+
+Processing ApplicationController#hello_world (for 127.0.0.1 at 2009-09-17 15:54:31) [GET]
+
+SyntaxError (/Users/adam/Studio/github/giggly-js-example/app/controllers/examples_controller.rb:7: syntax error, unexpected kEND, expecting $end):
+  
+
+Rendered rescues/_trace (37.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ApplicationController#hello_world (for 127.0.0.1 at 2009-09-17 15:54:44) [GET]
+
+NameError (uninitialized constant ApplicationControler):
+  app/controllers/examples_controller.rb:1
+
+Rendered rescues/_trace (116.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:54:56) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 8, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:55:06) [GET]
+Rendering examples/hello_world
+Completed in 6ms (View: 5, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:55:17) [GET]
+Rendering examples/hello_world
+Completed in 7ms (View: 5, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:55:57) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (no such file to load -- /Users/adam/Studio/github/giggly-js-example/../giggly/giggly) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'giggly') %>
+
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (133.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:56:15) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (143.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:57:25) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (55.3ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:57:26) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (141.7ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:57:27) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (142.4ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:57:51) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (57.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:57:52) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (143.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:58:20) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Gigya::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (142.0ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:58:27) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Giggly::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (54.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:58:46) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (uninitialized constant Giggly::Javascript::Helper) on line #1 of app/views/examples/hello_world.html.erb:
+1: <%= require File.join(RAILS_ROOT, '..', 'giggly', 'lib', 'giggly') %>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:4
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+    ./giggly/lib/giggly.rb:15
+    app/views/examples/hello_world.html.erb:1
+
+Rendered rescues/_trace (139.5ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:14) [GET]
+Rendering examples/hello_world
+Completed in 127ms (View: 125, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:15) [GET]
+Rendering examples/hello_world
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:16) [GET]
+Rendering examples/hello_world
+Completed in 4ms (View: 2, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:17) [GET]
+Rendering examples/hello_world
+Completed in 3ms (View: 2, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:37) [GET]
+Rendering examples/hello_world
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 15:59:43) [GET]
+
+NameError (undefined local variable or method `k' for #<ExamplesController:0x1036d4dc8>):
+  app/controllers/examples_controller.rb:5:in `hello_world'
+
+Rendered rescues/_trace (40.2ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:01:27) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `javascript_include_socialize' for #<Giggly::Javascript::Socialize:0x103464750>) on line #3 of app/views/examples/hello_world.html.erb:
+1: <html>
+2: <head>
+3:   <%= @giggly.javascript_include_socialize %>
+4: </head>
+5: <body>
+6:   
+
+    app/views/examples/hello_world.html.erb:3
+
+Rendered rescues/_trace (130.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:01:46) [GET]
+Rendering examples/hello_world
+Completed in 8ms (View: 5, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:02:39) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `javscript' for #<Giggly::Javascript::Socialize:0x10360ccd8>) on line #4 of app/views/examples/hello_world.html.erb:
+1: <html>
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <% @giggly.javscript do %>
+5:     <%= @giggly.config_to_js %>
+6:   <% end %>
+7: </head>
+
+    app/views/examples/hello_world.html.erb:4
+
+Rendered rescues/_trace (54.5ms)
+Rendered rescues/_request_and_response (0.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:02:46) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `javascriptify_variable' for #<Giggly::Javascript::Socialize:0x10337d3c8>) on line #5 of app/views/examples/hello_world.html.erb:
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <% @giggly.javascript do %>
+5:     <%= @giggly.config_to_js %>
+6:   <% end %>
+7: </head>
+8: <body>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `collect'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:20:in `to_var'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:27:in `config_to_js'
+    app/views/examples/hello_world.html.erb:5
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:14:in `javascript'
+    app/views/examples/hello_world.html.erb:4
+
+Rendered rescues/_trace (53.9ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:03:06) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `javascriptify_variable' for #<Giggly::Javascript::Socialize:0x103521288>) on line #5 of app/views/examples/hello_world.html.erb:
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <% @giggly.javascript do %>
+5:     <%= @giggly.config_to_js %>
+6:   <% end %>
+7: </head>
+8: <body>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `collect'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:20:in `to_var'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:27:in `config_to_js'
+    app/views/examples/hello_world.html.erb:5
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:14:in `javascript'
+    app/views/examples/hello_world.html.erb:4
+
+Rendered rescues/_trace (50.3ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:03:07) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `javascriptify_variable' for #<Giggly::Javascript::Socialize:0x1037ac9d0>) on line #5 of app/views/examples/hello_world.html.erb:
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <% @giggly.javascript do %>
+5:     <%= @giggly.config_to_js %>
+6:   <% end %>
+7: </head>
+8: <body>
+
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `collect'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:30:in `javascriptify_object'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:20:in `to_var'
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:27:in `config_to_js'
+    app/views/examples/hello_world.html.erb:5
+    /Users/adam/Studio/github/giggly/lib/giggly/javascript/helper.rb:14:in `javascript'
+    app/views/examples/hello_world.html.erb:4
+
+Rendered rescues/_trace (47.8ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:03:13) [GET]
+Rendering examples/hello_world
+Completed in 126ms (View: 8, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:03:46) [GET]
+Rendering examples/hello_world
+ERROR: compiling _run_erb_app47views47examples47hello_world46html46erb RAISED compile error
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:4: syntax error, unexpected ')'
+...ncat(( @giggly.javascript do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:6: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer.conca...
+                             ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:12: syntax error, unexpected kENSURE, expecting kEND
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14: syntax error, unexpected $end, expecting ')'
+Function body:           def _run_erb_app47views47examples47hello_world46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<html>\n<head>\n  "
+
+; @output_buffer.concat(( @giggly.include_gigya_socialize ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( @giggly.javascript do ).to_s); @output_buffer.concat "\n    "
+; @output_buffer.concat(( @giggly.config_to_js ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( end ).to_s); @output_buffer.concat "\n</head>\n<body>\n  \n</body>\n</html>"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:4: syntax error, unexpected ')'
+...ncat(( @giggly.javascript do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:6: syntax error, unexpected kEND
+; @output_buffer.concat(( end ).to_s); @output_buffer.conca...
+                             ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:12: syntax error, unexpected kENSURE, expecting kEND
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14: syntax error, unexpected $end, expecting ')') on line #4 of app/views/examples/hello_world.html.erb:
+1: <html>
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <%= @giggly.javascript do %>
+5:     <%= @giggly.config_to_js %>
+6:   <%= end %>
+7: </head>
+
+    app/views/examples/hello_world.html.erb:14:in `compile!'
+
+Rendered rescues/_trace (47.1ms)
+Rendered rescues/_request_and_response (1.4ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:03:52) [GET]
+Rendering examples/hello_world
+ERROR: compiling _run_erb_app47views47examples47hello_world46html46erb RAISED compile error
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:4: syntax error, unexpected ')'
+...ncat(( @giggly.javascript do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14: syntax error, unexpected kEND, expecting ')'
+Function body:           def _run_erb_app47views47examples47hello_world46html46erb(local_assigns)
+            old_output_buffer = output_buffer;;@output_buffer = '';  __in_erb_template=true ; @output_buffer.concat "<html>\n<head>\n  "
+
+; @output_buffer.concat(( @giggly.include_gigya_socialize ).to_s); @output_buffer.concat "\n  "
+; @output_buffer.concat(( @giggly.javascript do ).to_s); @output_buffer.concat "\n    "
+;  @giggly.config_to_js ; @output_buffer.concat "\n  "
+;  end ; @output_buffer.concat "\n</head>\n<body>\n  \n</body>\n</html>"
+
+
+
+
+; @output_buffer
+          ensure
+            self.output_buffer = old_output_buffer
+          end
+Backtrace: /Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14:in `compile!'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:61:in `compile'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/renderable.rb:28:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/template.rb:199:in `render_template'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_view/base.rb:260:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1250:in `render_for_file'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:945:in `render_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:51:in `render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1326:in `default_render'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:1332:in `perform_action_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:617:in `call_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:610:in `perform_action_without_benchmark'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/1.8/benchmark.rb:308:in `realtime'
+/Library/Ruby/Gems/1.8/gems/activesupport-2.3.4/lib/active_support/core_ext/benchmark.rb:17:in `ms'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/benchmarking.rb:68:in `perform_action_without_rescue'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/rescue.rb:160:in `perform_action_without_flash'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/flash.rb:146:in `perform_action'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `send'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:532:in `process_without_filters'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/filters.rb:606:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:391:in `process'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/base.rb:386:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/routing/route_set.rb:437:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:87:in `dispatch'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:121:in `_call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:130:in `build_middleware_stack'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:29:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/query_cache.rb:34:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:9:in `cache'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/query_cache.rb:28:in `call'
+/Library/Ruby/Gems/1.8/gems/activerecord-2.3.4/lib/active_record/connection_adapters/abstract/connection_pool.rb:361:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/head.rb:9:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/methodoverride.rb:24:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/params_parser.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/session/cookie_store.rb:93:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/failsafe.rb:26:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `synchronize'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/lock.rb:11:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:114:in `call'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/reloader.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/actionpack-2.3.4/lib/action_controller/dispatcher.rb:108:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/static.rb:31:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:46:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `each'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/urlmap.rb:40:in `call'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/rails/rack/log_tailer.rb:17:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/content_length.rb:13:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/chunked.rb:15:in `call'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:61:in `process'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:159:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `each'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:158:in `process_client'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:285:in `run'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `initialize'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `new'
+/System/Library/Frameworks/Ruby.framework/Versions/1.8/usr/lib/ruby/gems/1.8/gems/mongrel-1.1.5/lib/mongrel.rb:268:in `run'
+/Library/Ruby/Gems/1.8/gems/rack-1.0.0/lib/rack/handler/mongrel.rb:34:in `run'
+/Library/Ruby/Gems/1.8/gems/rails-2.3.4/lib/commands/server.rb:111
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `gem_original_require'
+/Library/Ruby/Site/1.8/rubygems/custom_require.rb:31:in `require'
+script/server:3
+
+ActionView::TemplateError (compile error
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:4: syntax error, unexpected ')'
+...ncat(( @giggly.javascript do ).to_s); @output_buffer.concat ...
+                              ^
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:12: syntax error, unexpected kENSURE, expecting ')'
+/Users/adam/Studio/github/giggly-js-example/app/views/examples/hello_world.html.erb:14: syntax error, unexpected kEND, expecting ')') on line #4 of app/views/examples/hello_world.html.erb:
+1: <html>
+2: <head>
+3:   <%= @giggly.include_gigya_socialize %>
+4:   <%= @giggly.javascript do %>
+5:     <% @giggly.config_to_js %>
+6:   <% end %>
+7: </head>
+
+    app/views/examples/hello_world.html.erb:14:in `compile!'
+
+Rendered rescues/_trace (47.1ms)
+Rendered rescues/_request_and_response (0.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:04:02) [GET]
+Rendering examples/hello_world
+Completed in 95ms (View: 92, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:04:45) [GET]
+Rendering examples/hello_world
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:07:24) [GET]
+Rendering examples/hello_world
+Completed in 4ms (View: 1, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:07:40) [GET]
+
+NoMethodError (undefined method `join' for "facebook":String):
+  /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:19:in `to_config'
+  /Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:13:in `initialize'
+  app/controllers/examples_controller.rb:5:in `new'
+  app/controllers/examples_controller.rb:5:in `hello_world'
+
+Rendered rescues/_trace (114.3ms)
+Rendered rescues/_request_and_response (1.5ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:10:37) [GET]
+
+SyntaxError (/Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:20: syntax error, unexpected tSTRING_BEG, expecting '}'
+          'disabledProviders' => @disabled_providers
+           ^
+/Users/adam/Studio/github/giggly/lib/giggly/javascript/socialize.rb:20: syntax error, unexpected tASSOC, expecting kEND
+          'disabledProviders' => @disabled_providers
+                                ^):
+  /Users/adam/Studio/github/giggly/lib/giggly/javascript.rb:10
+  ./giggly/lib/giggly.rb:15
+  app/controllers/examples_controller.rb:4:in `hello_world'
+
+Rendered rescues/_trace (123.1ms)
+Rendered rescues/_request_and_response (1.3ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:10:51) [GET]
+Rendering examples/hello_world
+Completed in 137ms (View: 9, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:11:51) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:12:10) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:14:25) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:14:50) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:15:35) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:15:41) [GET]
+Rendering examples/hello_world
+Completed in 11ms (View: 7, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:16:33) [GET]
+Rendering examples/hello_world
+Completed in 129ms (View: 9, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:17:05) [GET]
+Rendering examples/hello_world
+
+ActionView::TemplateError (undefined method `k' for #<ActionView::Base:0x10331ec38>) on line #3 of app/views/examples/hello_world.html.erb:
+1: <html>
+2: <head>
+3:   <%= k @giggly.include_gigya_socialize %>
+4:   <%= @giggly.javascript {@giggly.config_to_js} %>
+5:   <script type="text/javascript">
+6:     function Connect()  
+
+    app/views/examples/hello_world.html.erb:3
+
+Rendered rescues/_trace (48.4ms)
+Rendered rescues/_request_and_response (2.0ms)
+Rendering rescues/layout (internal_server_error)
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:17:10) [GET]
+Rendering examples/hello_world
+Completed in 9ms (View: 6, DB: 0) | 200 OK [http://localhost/examples/hello_world]
+
+
+Processing ExamplesController#hello_world (for 127.0.0.1 at 2009-09-17 16:31:49) [GET]
+Rendering examples/hello_world
+Completed in 125ms (View: 8, DB: 0) | 200 OK [http://localhost/examples/hello_world]

@@ -1,0 +1,22 @@
+== Gigglya Sample App
+
+The goal of this application is to demonstrate the functionality of the
+gigglya rails plugin.  It will walk through all the features of gigya and
+provide a guide to implementing these on your own application.
+
+== Features
+
+=== Authentication
+
+Sign up new user with Gigya Socialize
+Connect Gigya Socialize user to existing account
+
+=== Events
+
+=== Security
+
+=== Publishing
+
+=== Server API
+
+=== GUI Components

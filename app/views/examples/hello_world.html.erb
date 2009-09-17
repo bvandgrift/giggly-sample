@@ -1,0 +1,50 @@
+<html>
+<head>
+  <%= @giggly.include_gigya_socialize %>
+  <%= @giggly.javascript {@giggly.config_to_js} %>
+  <script type="text/javascript">
+    function Connect()  
+        {  
+            // Step 3 - Define parameters object:  
+            var params = {  
+               "callback": onConnect,  
+               "provider": "facebook"  
+
+            };     
+
+            // Step 4 - Calling the Socialize API method - connect:  
+            gigya.services.socialize.connect(gigya_config, params);  
+        }  
+
+        // Step 5 - Define callback function:  
+        function onConnect(response)  
+        {  
+            if (response.status=='OK')  
+            {  
+                // Update the page with the data received in the response:  
+
+                // inject the user's nickname to the "divUserName" div   
+                document.getElementById('divUserName').innerHTML = response.user.nickname;  
+                // inject the user's photo to the image "src" attribute.  
+                document.getElementById('imgUserPhoto').src=response.user.photoURL;  
+            }  
+            else  
+            {  
+                //handle errors  
+                alert("An error has occurred!" + '\n' +   
+                    "Error details: " + response.statusMessage + '\n' +  
+                    "In method: " + response.operation);  
+            }  
+        }
+  </script>
+</head>
+<body >  
+    <center>  
+    <input type="button" onclick="Connect()" value="Connect to facebook"   />  
+    <div id="UserInfo">  
+        <div id="divUserName"></div>  
+        <div id="divUserPhoto"><img id="imgUserPhoto" src="http://www.gigya.com/wildfire/i/transparent.GIF" onerror="this.src='http://www.gigya.com/wildfire/i/transparent.GIF'" /></div>  
+    </div>  
+    </center>  
+</body>
+</html>
